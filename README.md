@@ -57,3 +57,15 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Freddy's Cookbook
+
+"description": "Commands:
+  - To create a component: ng g c [components|pages]/component-name
+  - To create a service: ng g s services/service-name
+  - To create a module: ng g m modules/module-name
+  - To create a directive: ng g d directives/directive-name
+  - To create a pipe: ng g p pipes/pipe-name
+  - To create a guard: ng g g guards/guard-name
+  - To create a resolver: ng g r resolvers/resolver-name
+  - To create a class: ng g cl classes/class-name",

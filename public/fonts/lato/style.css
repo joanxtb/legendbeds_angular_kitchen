@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Lato-Font';
+  src: url('./Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Syncopate-Font';
+  src: url('./Syncopate-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lato {
+  font-family: 'Lato-Font';
+}
+.syncopate {
+  font-family: 'Syncopate-Font';
+}

@@ -1,0 +1,104 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/lioneco/Dropbox/* LIONE & CO - CREATIVE/SQWAD/010-SQW Service+Mobile Web Pages/010-SQW SERVICES ICON PAGE_FINAL/Document fonts/AdobeFnt23.lst
+FileLength:2525
+FileModTime:678320566
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Black
+FamilyName:Lato
+StyleName:Black
+MenuName:Lato Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Lato Black
+WritingScript:Roman
+OutlineFileName:/Users/lioneco/Dropbox/* LIONE & CO - CREATIVE/SQWAD/010-SQW Service+Mobile Web Pages/010-SQW SERVICES ICON PAGE_FINAL/Document fonts/Lato-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:114588
+FileModTime:402587946
+NameArray:0,Mac,4,Lato Black
+NameArray:0,Win,1,Lato Black
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Bold
+FamilyName:Lato
+StyleName:Bold
+MenuName:Lato
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Lato Bold
+WritingScript:Roman
+OutlineFileName:/Users/lioneco/Dropbox/* LIONE & CO - CREATIVE/SQWAD/010-SQW Service+Mobile Web Pages/010-SQW SERVICES ICON PAGE_FINAL/Document fonts/Lato-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:121788
+FileModTime:402587946
+NameArray:0,Mac,4,Lato Bold
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Italic
+FamilyName:Lato
+StyleName:Italic
+MenuName:Lato
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Lato Italic
+WritingScript:Roman
+OutlineFileName:/Users/lioneco/Dropbox/* LIONE & CO - CREATIVE/SQWAD/010-SQW Service+Mobile Web Pages/010-SQW SERVICES ICON PAGE_FINAL/Document fonts/Lato-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:118352
+FileModTime:402587946
+NameArray:0,Mac,4,Lato Italic
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Regular
+FamilyName:Lato
+StyleName:Regular
+MenuName:Lato
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Lato Regular
+WritingScript:Roman
+OutlineFileName:/Users/lioneco/Dropbox/* LIONE & CO - CREATIVE/SQWAD/010-SQW Service+Mobile Web Pages/010-SQW SERVICES ICON PAGE_FINAL/Document fonts/Lato-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:120196
+FileModTime:402587946
+NameArray:0,Mac,4,Lato Regular
+NameArray:0,Win,1,Lato
+%EndFont
+

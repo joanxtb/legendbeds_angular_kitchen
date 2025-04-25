@@ -1,0 +1,31 @@
+<div class="ms-auto d-flex align-self-center">
+    <div
+        class="ms-auto align-self-center bg-gray-dark d-flex justify-content-center w-[40px] h-[40px] rounded-[20px] bordered">
+        <i class="fas fa-bell align-self-center whiteish font-14"></i>
+    </div>
+    <div class="ms-2 align-self-center cover w-[40px] h-[40px] rounded-[20px] bordered"></div>
+    <div class="dropdown ms-2 align-self-center">
+        <button (click)="popMenu($event)" class="poppins d-flex btn btn-link text-white text-[10px]"
+            id="btn-user" type="button" data-bs-toggle="dropdown" aria-expanded="false">{{me().name}}
+            <i-lucide [img]="ChevronDownIcon" [size]="24"
+                    class="text-white align-self-center ms-1 font-[10px]"></i-lucide>
+            <!--<i class="fa fa-chevron-down align-self-center ms-1" />--></button>
+
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+
+    <!--<Popover placement="bottom" isOpen={this.state.user_menu} target={`btn-user`} toggle={() => this.setState({ user_menu: !this.state.user_menu })} class="bg-gray-2">
+        <PopoverBody class="d-flex flex-column justify-content-center">
+            <button class="btn btn-link btn-sm white text-left"><i class="icon-lb_user me-2" />Mi Cuenta</button>
+            {(user.Permissions & (config.permissions.SuperAdmin)) !== 0 && <Link to={this.state.hotel ? `/staff/${this.state.hotel.IdProperty}` : '/properties'} class="btn btn-link btn-sm white text-left"><i class="icon-lb_staff font-8 me-2" />Staff</Link>}
+            {(user.Permissions & (config.permissions.SuperAdmin)) !== 0 && <Link to="/properties" class="btn btn-link btn-sm white text-left"><i class="icon-lb_suitcase me-2" />Propiedades</Link>}
+            {(user.Permissions & (config.permissions.SuperAdmin)) !== 0 && <Link to={this.state.hotel ? `/logs/${this.state.hotel.IdProperty}` : '/properties'} class="btn btn-link btn-sm white text-left orange"><i class="icon-activity me-2" />Bitacora</Link>}
+            <button class="btn btn-link btn-sm white text-left"><i class="icon-lb_cog me-2" />Ajustes</button>
+            <button class="btn btn-link btn-sm white text-left" onClick={this.logout}><i class="icon-log-out me-2" />Cerrar Sesión</button>
+        </PopoverBody>
+    </Popover>-->
+</div>

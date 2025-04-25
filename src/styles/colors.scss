@@ -1,0 +1,341 @@
+.green,
+.success,
+.Active,
+.Completed {
+    color: #2cad3c;
+}
+
+.blue {
+    color: #1771FF;
+}
+
+.white {
+    color: white;
+}
+
+.whiteish {
+    color: #B4BFCB;
+}
+
+.white-ish {
+    color: #9a9a9a;
+}
+
+.left-menu-link {
+    color: #9A9A9A;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.left-menu-link:hover {
+    color: white;
+}
+
+.blue-dark,
+.Shopping {
+    color: #002549;
+}
+
+.navy {
+    color: #0433C4;
+}
+
+.gray {
+    color: #343F4B;
+}
+
+.bg-gray-3 {
+    background-color: #15191E;
+}
+
+.lile {
+    color: #8CA0DE;
+}
+
+.bg-lile {
+    background-color: #8CA0DE;
+}
+
+.black {
+    color: black;
+}
+
+.blue-link {
+    color: #03aeef;
+}
+
+.blue,
+.Pending {
+    color: #1771FF;
+}
+
+.bg-blue {
+    background-color: #1771FF;
+}
+
+.bg-gray-light {
+    background-color: #343F4B;
+}
+
+.btn-blue {
+    background-color: #1771ff!important;
+    border-radius: 22px!important;
+    &:hover {
+        background-color: #085ade!important;        
+    }
+}
+
+.btn-green {
+    background-color: #2cad3c;
+    border-radius: 22px;
+}
+
+.btn-link.bordered {
+    border-radius: 22px;
+    border: 2px solid #343f4b;
+}
+
+.btn-gray-2 {
+    background-color: #0e1115;
+    border-radius: 22px;
+}
+
+.btn-black {
+    background-color: #0A0B0E;
+    border-color: #0A0B0E;
+    border-radius: 22px;
+}
+
+.btn-gray-light {
+    background-color: #343F4B;
+    border-color: #343F4B;
+    border-radius: 22px;
+}
+
+.gray-light {
+    color: gray;
+}
+
+
+.yellow,
+.Waitlisted,
+.Waiting {
+    color: #FFC00E;
+}
+
+.orange {
+    color: #F3A833;
+}
+
+.border-blue {
+    border-color: #1771FF;
+}
+
+.red,
+.rejected,
+.Inactive,
+.Denied,
+.Late {
+    color: #dc3545;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.input-danger {
+    border: 2px solid #dc3545;
+}
+
+.teal {
+    color: teal;
+}
+
+.mint {
+    color: #E1F0E5
+}
+
+.bg-mint {
+    background-color: #E1F0E5
+}
+
+.cream {
+    color: #FFF5DF
+}
+
+.bg-cream {
+    background-color: #FFF5DF
+}
+
+.lavander {
+    color: #E7EBF7
+}
+
+.bg-lavander {
+    background-color: #E7EBF7
+}
+
+.purple,
+.Tryout {
+    color: #77498B;
+}
+
+.bg-purple {
+    background-color: #77498B;
+}
+
+.bg-green {
+    background-color: #289F45;
+}
+
+.bg-green-dark {
+    background-color: #0D561E;
+}
+
+.bg-yellow {
+    background-color: #FFC00E;
+}
+
+.bg-dark-blue {
+    background-color: #143465;
+}
+
+.bg-navy {
+    background-color: #0433C4;
+}
+
+.bg-gray-2 {
+    background-color: #0e1115;
+}
+
+th.bg-gray-2,
+th.bg-gray-3,
+th.bg-black,
+th.bg-transparent {
+    border-color: #343f4b;
+}
+
+td.bg-gray-2,
+td.bg-gray-3 {
+    border-color: #15191E;
+}
+
+.bg-blue-light {
+    background-color: #E8EBF6;
+}
+
+.bg-darker-blue,
+.bg-blue-dark {
+    background-color: #001A36;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #0a0b0e;
+}
+
+.bg-blackish {
+    background-color: #252525;
+}
+
+.bg-gray {
+    background-color: #CCC
+}
+
+.bg-red {
+    background-color: #f44336;
+}
+
+.bg-gray-darkish {
+    background-color: #8F959C
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.bg-whiteish {
+    background-color: #EAEAEA;
+}
+
+.bg-gray-dark {
+    background-color: #15191E
+}
+
+.bg-transparent {
+    background-color: transparent
+}
+
+.bg-Competitive {
+    background-color: #6a0e33;
+}
+
+.bg-Camp,
+.bg-orange {
+    background-color: #fd930c;
+}
+
+.bg-Recreational {
+    background-color: #259bd9;
+}
+
+.bg-Tournament {
+    background-color: #4fb03c;
+}
+
+.color-Competitive {
+    color: #6a0e33;
+}
+
+.color-Camp {
+    color: #fd930c;
+}
+
+.color-Recreational {
+    color: #259bd9;
+}
+
+.color-Tournament {
+    color: #4fb03c;
+}
+
+.jeff_blue {
+    color: #013469;
+}
+
+.jeff_blue_back {
+    background-color: #013469;
+}
+
+.inner-shadow {
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+input.dark,
+button.dark,
+textarea.dark {
+    background-color: #AAA;
+    padding: 8px;
+    display: block;
+    border: none;
+    width: 100%;
+}
+
+.premium-gradient {
+    background: rgb(100, 169, 212);
+    background: linear-gradient(90deg, rgba(100, 169, 212, 1) 0%, rgba(172, 215, 100, 1) 100%);
+}
+
+table.fc-scrollgrid,
+.fc-scrollgrid th,
+.fc-scrollgrid td {
+    border: 1px solid #15191E;
+}
+
+.fc-event-main {
+    color: inherit
+}

@@ -1,0 +1,12 @@
+a {
+    >span.blue {
+        &:hover {
+            color: #0754cf;
+        }
+    }
+}
+
+.popover-body {
+    border: 1px solid white;
+    border-radius: 5px;
+}

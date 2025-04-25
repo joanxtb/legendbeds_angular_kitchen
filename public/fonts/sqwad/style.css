@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SQWAD-Font';
+  src: url('./BankGothic.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sqwad-font {
+  font-family: 'SQWAD-Font';
+}
