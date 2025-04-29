@@ -27,5 +27,10 @@ export const routes: Routes = [
     {
         path: 'recover',
         loadComponent: () => import('./pages/recover-password/recover-password.component').then(m => m.RecoverPasswordComponent)
+    },
+    {
+        path: 'rooms/:id',
+        canActivate: [authGuard],
+        loadComponent: () => import('./pages/rooms/rooms.component').then(m => m.RoomsComponent)
     }
 ];

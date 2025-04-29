@@ -1,0 +1,73 @@
+<div class="bg-gray-2 py-3 flex black-input mb-3">
+    <div class="w-25 d-flex justify-content-center flex-none">
+        <div class="black-input-border contains bg-black d-flex justify-content-center align-self-center w-[140px] h-[140px] rounded-[70px]"
+            style="background: url({{p().LogoUrl}}) no-repeat center center;">
+            <!--<i class="fas fa-camera font-60 gray align-self-center" />-->
+        </div>
+    </div>
+    <div class="w-75 flex-1">
+        <div class="flex ">
+            <a href="/properties/edit/{{p().IdProperty}}" class="align-self-center  flex-1">
+                <h3 class="white d-flex">{{p().Name}} <i
+                        class="far font-12 align-self-center fa-edit ms-4"></i>
+                </h3>
+            </a>            
+            <button (click)="onSetMainProperty($event, p)" class=" btn btn-link ms-auto me-3 flex-none align-self-center">
+                @if (selected().IdProperty === p().IdProperty){<i-lucide [img]="CircleCheckIcon" [size]="24"
+                    class="text-green-600">
+                </i-lucide>}
+                @if (selected().IdProperty !== p().IdProperty){<i-lucide [img]="CircleIcon" [size]="24"
+                    class="text-white">
+                </i-lucide>}
+            </button>
+        </div>
+        <div class="flex">
+            <i-lucide [img]="CirclePowerIcon" [size]="24"
+                class="text-green-400 align-self-center"></i-lucide>
+            <span class="white poppins ms-2 align-self-center">Activo</span>
+        </div>
+        <!-- BOTTOM OPTIONS -->
+        <div class="d-flex w-100 mt-[50px]">
+            <a (click)="onSetMainProperty($event, p)" href="/rooms/{{p().IdProperty}}"
+                class="w-100 d-flex flex-column">
+                <i-lucide [img]="BedIcon" [size]="24" class="gray align-self-center"></i-lucide>
+                <span class="gray align-self-center font-10">Habitaciones</span>
+            </a>
+            <a (click)="onSetMainProperty($event, p)" href="/floormap/{{p().IdProperty}}"
+                class="w-100 d-flex flex-column">
+                <i-lucide [img]="MapIcon" [size]="24" class="gray align-self-center"></i-lucide>
+                <span class="gray align-self-center font-10">Floormap</span>
+            </a>
+            <a (click)="onSetMainProperty($event, p)" href="/plans/{{p().IdProperty}}"
+                class="w-100 d-flex flex-column">
+                <i-lucide [img]="PercentIcon" [size]="24" class="gray align-self-center"></i-lucide>
+                <span class="gray align-self-center font-10">Planes</span>
+            </a>
+            <a (click)="onSetMainProperty($event, p)" href="/staff/{{p().IdProperty}}"
+                class="w-100 d-flex flex-column">
+                <i-lucide [img]="ShieldUserIcon" [size]="24" class="gray align-self-center"></i-lucide>
+                <span class="gray align-self-center font-10">Staff</span>
+            </a>
+            <a (click)="onSetMainProperty($event, p)" href="/bookings/{{p().IdProperty}}"
+                class="w-100 d-flex flex-column">
+                <i-lucide [img]="BookmarkIcon" [size]="24" class="gray align-self-center"></i-lucide>
+                <span class="gray align-self-center font-10">Reservas</span>
+            </a>
+            <a (click)="onSetMainProperty($event, p)" href="/reports/{{p().IdProperty}}"
+                class="w-100 d-flex flex-column">
+                <i-lucide [img]="ChartLineIcon" [size]="24" class="gray align-self-center"></i-lucide>
+                <span class="gray align-self-center font-10">Reportes</span>
+            </a>
+            <a (click)="onSetMainProperty($event, p)" href="/dashboard/{{p().IdProperty}}"
+                class="w-100 d-flex flex-column">
+                <i-lucide [img]="EllipsisVerticalIcon" [size]="24"
+                    class="gray align-self-center"></i-lucide>
+                <span class="gray align-self-center font-10">Mas</span>
+            </a>
+            <div class="w-100"></div>
+            <div class="w-100 ms-auto d-flex flex-column ">
+                <i-lucide [img]="TrashIcon" [size]="24" class="gray align-self-center"></i-lucide>
+            </div>
+        </div>
+    </div>
+</div>

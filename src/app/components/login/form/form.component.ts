@@ -28,6 +28,7 @@ export class FormComponent {
   passwordVisible = signal(false);
   microTransac = signal(false);
   form = signal({
+    // TODO: this is preloading.
     email: 'joanxtb@gmail.com',
     password: 'cambiame'
   });
@@ -84,8 +85,7 @@ export class FormComponent {
     // spinner
     this.microTransac.set(true);
 
-    // Observer pattern (RxJS)
-    console.log({ emailInput, passwordInput });
+    // Observer pattern (RxJS)    
     this.auth_saga.login(emailInput, passwordInput)
       .pipe(catchError(({ error: { error } }) => {
         // This catches anything other than http code 200

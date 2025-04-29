@@ -1,4 +1,4 @@
-<section class="w3-container debug">
+<section class="w3-container ">
     @if(loading()){<app-line-loader></app-line-loader>}
 
     <!-- HEADER -->
@@ -16,29 +16,22 @@
                 <i class="icon-corner-down-left text-white font-12"></i>
             </button>}
         </div>
-        <div class="flex-1 debug"></div>
+        <div class="flex-1 "></div>
         <div class="flex-none align-self-center">
             <app-top-right-menu [me]="me()" />
         </div>
     </div>
 
     <!-- LIST -->
-    <section class="mt-4 debug">
+    <section class="mt-4 ">
         <hr />
         @if(bootstrapped())
         {
-        <section class="w3-content debug">
+        <section class="w3-content ">
             @for (p of list(); track p.IdProperty)
             {
-            <div @fadeSlide class="bg-gray-2 py-3 d-flex black-input mb-3">
-                <div class="w-25 d-flex justify-content-center">
-                    <div
-                        class="contains bg-black d-flex justify-content-center align-self-center w-[140px] h-[140px] rounded-[70px]">
-                        <!-- style={{ width: 140, height: 140, borderRadius: 70, background: `url(${p.LogoUrl}) no-repeat center center` }} -->
-                        <!--<i class="fas fa-camera font-60 gray align-self-center" />-->
-                    </div>
-                </div>
-            </div>
+            <app-properties-list-item [p]="p" [selected]="selected()"
+                (action)="onSetMainProperty(p)" @fadeSlide></app-properties-list-item>
             }
         </section>
         }
